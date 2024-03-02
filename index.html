@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <form>
+    <h2 style="text-align: center;">Student Registration Form</h2>
+    <label>First Name: </label>
+    <input type="text" name="firstname" size="20" /><br ><br>
+    <label>Last Name: </label>
+    <input type="text" name="lastname" size="20"/><br ><br >
+    <label>Course: </label>
+    <select>
+        <option value="Course">Course</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="M.Tech">M.Tech</option>
+        <option value="BBA">BBA</option>
+        <option value="MBA">MBA</option>
+        <option value="BCA">BCA</option>
+        <option value="MCA">MCA</option>
+    </select><br><br >
+    <label for="gender">Gender: </label><br> 
+    <input type="radio" id="male" name="gender" value="Male">
+   <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="Female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="Other">
+  <label for="other">Other</label>
+  <br><br>
+    <label>Phone: </label>
+    <input type="text" name="country code" value="+91" size="2">
+    <input type="text" name="phn no" /><br><br>
+    <label>Date of Birth: </label>
+    <input type="date" name="date of birth"/><br><br>
+    <label>Address: </label><br>
+    <textarea cols="50" rows="6"></textarea>
+    <br> <br>
+    <label>Email: </label>
+    <input type="email" id="email" name="email" /><br><br>
+    <label>Password: </label>
+    <input type="password" name="password"/><br><br>
+    <label>Reset Password: </label>
+    <input type="password" name="resetpassword"/><br><br> 
+    <label>Profile Picture: </label><br><br>
+    <input type="file" name="profile picture"><br><br>
+    <button type="button" onclick="alert('Your form is successfully submmitted')" style="background-color: aquamarine;">Submit</button>
+</form>
+
+
+
+</body>
+</html>
